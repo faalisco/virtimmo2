@@ -1,0 +1,38 @@
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+
+  .title {
+    margin: 1em;
+    color: rgb(153, 147, 147);
+    text-align: center;
+  }
+
+  .staff {
+    position: relative;
+    margin-bottom: 0.8em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .staffs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .staffs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .staffs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

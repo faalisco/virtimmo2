@@ -1,0 +1,72 @@
+.testimonial {
+  width: 80%;
+  color: black;
+  margin: 0 auto 2em auto;
+  border: solid 1px #dfdada;
+  overflow: hidden;
+
+  .testimonial-wrap {
+    position: relative;
+    width: 300%;
+    height: 100%;
+    display: flex;
+    animation: slide 20s infinite;
+
+    .testimonial-item {
+      width: 100%;
+      text-align: center;
+
+      blockquote {
+        margin: 1.5em;
+        text-align: initial;
+      }
+      span {
+        display: block;
+        color: rgb(52, 105, 101);
+        font-weight: 600;
+      }
+      img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+  15% {
+    left: 0;
+  }
+
+  30% {
+    left: -100%;
+  }
+  40% {
+    left: -100%;
+  }
+
+  50% {
+    left: -200%;
+  }
+  60% {
+    left: -200%;
+  }
+
+  70% {
+    left: -100%;
+  }
+  80% {
+    left: -100%;
+  }
+
+  90% {
+    left: 0;
+  }
+  100% {
+    left: 0;
+  }
+}

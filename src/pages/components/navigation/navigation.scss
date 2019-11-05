@@ -1,0 +1,120 @@
+.nav-wrap {
+  transition: all ease-out 1s;
+  z-index: 6;
+
+  .rebound {
+    text-align: right;
+    font-size: 12px;
+    background: #172132;
+    padding: 0.1em;
+    color: rgb(153, 147, 147);
+    z-index: 2;
+  }
+  .navigation {
+    display: grid;
+    place-items: center;
+    background: #172132;
+    color: rgb(153, 147, 147);
+
+    .nav-items {
+      .nav-item {
+        position: relative;
+        display: block;
+        text-align: center;
+        overflow: hidden;
+        margin-bottom: 1.9rem;
+        border-bottom: rgb(153, 147, 147) 2px solid;
+        color: rgb(153, 147, 147);
+
+        &::after {
+          content: " ";
+          position: absolute;
+          top: 100%;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          background: rgb(11, 95, 121);
+          transition: all 0.5s ease-in-out;
+          cursor: pointer;
+        }
+        &:hover {
+          &::after {
+            top: 0;
+            opacity: 0.5;
+          }
+        }
+      }
+      .active {
+        background: rgba(18, 119, 167, 0.5);
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  .open {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .nav-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 60vw;
+    .navigation {
+      height: 100vh;
+    }
+  }
+  .close {
+    transform: translateX(100%);
+  }
+}
+@media screen and (min-width: 900px) {
+  .nav-wrap {
+    width: 100%;
+    .rebound {
+      margin-top: 9em;
+      position: initial;
+      width: 100%;
+      text-align: right;
+      font-size: 12px;
+      border-bottom: solid 1px white;
+      padding: 1.5em 0;
+    }
+    .navigation {
+      position: initial;
+      width: 100%;
+      z-index: 1;
+
+      .nav-items {
+        display: flex;
+
+        .nav-item {
+          margin: 0;
+          padding: 1.3em;
+          border: none;
+
+          &:hover {
+            &::after {
+              top: 90%;
+              background: blue;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1076px) {
+  .nav-wrap {
+    .navigation {
+      justify-content: right;
+    }
+    .rebound {
+      margin-top: 1.5em;
+    }
+  }
+}

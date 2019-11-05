@@ -1,0 +1,62 @@
+.card {
+  background: white;
+  color: black;
+  padding: 0.5em;
+  border: solid 0.2px #f5f5f5;
+  text-align: center;
+  transition: all 250ms;
+  border: solid 1px #dfdada;
+
+  &:hover {
+    box-shadow: 0 70px 70px rgba(0, 0, 0, 0.2);
+    transform: translate(0, -10px);
+    z-index: 3;
+  }
+
+  span {
+    display: block;
+    color: rgb(52, 105, 101);
+  }
+
+  .image-wrap {
+    img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  .name {
+    font-weight: 700;
+    margin-top: 0.6em;
+  }
+
+  .position,
+  .phone {
+    font-weight: 500;
+  }
+
+  .phone {
+    margin-bottom: 0.8em;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+
+    .social-item {
+      width: 40px;
+      &:first-child {
+        margin-right: 0.8em;
+      }
+
+      &:hover {
+        box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
+        transform: translate(0, -3px);
+        transition: all 250ms;
+        background: rgb(52, 105, 101);
+      }
+    }
+  }
+}
