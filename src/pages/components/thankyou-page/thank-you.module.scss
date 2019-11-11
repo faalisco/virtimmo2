@@ -1,0 +1,13 @@
+.thank {
+  background: linear-gradient(-45deg, #212c3f 50%, #2c3444 50%);
+  color: rgb(200, 199, 199);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    margin-bottom: 1em;
+  }
+}

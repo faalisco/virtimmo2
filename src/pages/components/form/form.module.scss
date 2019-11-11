@@ -1,0 +1,39 @@
+.form {
+  &-item {
+    display: block;
+    width: 500px;
+    text-align: right;
+    margin-bottom: 1em;
+    color: rgb(200, 199, 199);
+
+    input,
+    textarea {
+      width: 300px;
+      margin-left: 1em;
+    }
+
+    input {
+      height: 30px;
+    }
+
+    textarea {
+      vertical-align: top;
+      height: 90px;
+    }
+  }
+
+  &-button,
+  input,
+  textarea {
+    color: rgb(200, 199, 199);
+    background: #1b212e;
+    border-radius: 5px;
+    border: solid rgb(200, 199, 199) 0.05px;
+    padding: 0.5em;
+  }
+  &-button {
+    text-align: center;
+    margin: 1em 0 1em 20em;
+    cursor: pointer;
+  }
+}
