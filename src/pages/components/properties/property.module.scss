@@ -1,16 +1,16 @@
 .wrapper {
   text-align: center;
-  width: 80%;
-  margin: 0 auto;
+  background: linear-gradient(-45deg, #212c3f 50%, #2c3444 50%);
+  padding: 2em;
 
   .property {
     display: grid;
-    color: rgb(240, 238, 236);
+    color: rgb(241, 240, 238);
     padding: 0.7em;
   }
 
   h2 {
-    color: rgb(153, 147, 147);
+    color: rgb(170, 170, 170);
     padding-bottom: 0.1em;
     margin: 2em;
     display: inline-block;
