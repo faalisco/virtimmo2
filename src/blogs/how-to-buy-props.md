@@ -1,9 +1,8 @@
 ---
-title: How we run things in Virtimmo
+title: How to buy things in Virtimmo
+image: ../images/featured-image1.jpeg
 ---
 
-![demo image](../images/featured-image1.jpeg)
-
-# How we run things in Virtimmo
+Some text goes here to give more info on the blog
 
 Some text goes here to give more info on the blog

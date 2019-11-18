@@ -17,55 +17,48 @@ class Property extends React.Component {
             <div className={propertyStyles.wrapper}>
                 <h2>OUR LATEST PROPERTIES</h2>
                 <div className={propertyStyles.property}>
-                    <div className={propertyStyles.propertyItem}>
-                        <Card
-                            type="Sale"
-                            imge={image1}
-                            dcript="house is located at the heart of bijilo with good furniture and ventilation"
-                            pay="D300,000 per/month"
 
-                        />
-                    </div>
+                    <Card
+                        type="Sale"
+                        imge={image1}
+                        dcript="house is located at the heart of bijilo with good furniture and ventilation"
+                        pay="D300,000 per/month"
 
-                    <div className={propertyStyles.propertyItem}>
-                        <Card
-                            type="Sale"
-                            imge={image2}
-                            dcript="house is located at the heart of bijilo with good furniture and ventilation"
-                            pay="D300,000 per/month"
+                    />
 
-                        />
-                    </div>
+                    <Card
+                        type="Sale"
+                        imge={image2}
+                        dcript="house is located at the heart of bijilo with good furniture and ventilation"
+                        pay="D300,000 per/month"
 
-                    <div className={propertyStyles.propertyItem}>
-                        <Card
-                            type="Sale"
-                            imge={image3}
-                            dcript="house is located at the heart of bijilo with good furniture and ventilation"
-                            pay="D300,000 per/month"
+                    />
 
-                        />
-                    </div>
+                    <Card
+                        type="Sale"
+                        imge={image3}
+                        dcript="house is located at the heart of bijilo with good furniture and ventilation"
+                        pay="D300,000 per/month"
 
-                    <div className={propertyStyles.propertyItem}>
-                        <Card
-                            type="Sale"
-                            imge={image4}
-                            dcript="house is located at the heart of bijilo with good furniture and ventilation"
-                            pay="D300,000 per/month"
+                    />
 
-                        />
-                    </div>
+                    <Card
+                        type="Sale"
+                        imge={image4}
+                        dcript="house is located at the heart of bijilo with good furniture and ventilation"
+                        pay="D300,000 per/month"
 
-                    <div className={propertyStyles.propertyItem}>
-                        <Card
-                            type="Sale"
-                            imge={image5}
-                            dcript="house is located at the heart of bijilo with good furniture and ventilation"
-                            pay="D300,000 per/month"
+                    />
 
-                        />
-                    </div>
+
+                    <Card
+                        type="Sale"
+                        imge={image5}
+                        dcript="house is located at the heart of bijilo with good furniture and ventilation"
+                        pay="D300,000 per/month"
+
+                    />
+
 
 
                 </div>

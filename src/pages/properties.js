@@ -29,63 +29,63 @@ class Property extends React.Component {
                     <div className={propertyStyles.property}>
 
                         <Props
-                            type="rent"
+                            type="Sale"
                             imge={image1}
                             pay="GMD200 000 / per year"
                             dcript="house is located at the heart of bijilo with good furniture and ventilation"
                         />
 
                         <Props
-                            type="rent"
+                            type="Rent"
                             imge={image4}
                             pay="GMD200 000 / per year"
                             dcript="house is located at the heart of bijilo with good furniture and ventilation"
                         />
 
                         <Props
-                            type="rent"
+                            type="Rent"
                             imge={image3}
                             pay="GMD200 000 / per year"
                             dcript="house is located at the heart of bijilo with good furniture and ventilation"
                         />
 
                         <Props
-                            type="rent"
+                            type="Rent"
                             imge={image5}
                             pay="GMD200 000 / per year"
                             dcript="house is located at the heart of bijilo with good furniture and ventilation"
                         />
 
                         <Props
-                            type="rent"
+                            type="Rent"
                             imge={image3}
                             pay="GMD200 000 / per year"
                             dcript="house is located at the heart of bijilo with good furniture and ventilation"
                         />
 
                         <Props
-                            type="rent"
+                            type="Rent"
                             imge={image1}
                             pay="GMD200 000 / per year"
                             dcript="house is located at the heart of bijilo with good furniture and ventilation"
                         />
 
                         <Props
-                            type="rent"
+                            type="Sale"
                             imge={image5}
                             pay="GMD200 000 / per year"
                             dcript="house is located at the heart of bijilo with good furniture and ventilation"
                         />
 
                         <Props
-                            type="rent"
+                            type="Rent"
                             imge={image4}
                             pay="GMD200 000 / per year"
                             dcript="house is located at the heart of bijilo with good furniture and ventilation"
                         />
 
                         <Props
-                            type="rent"
+                            type="Sale"
                             imge={image2}
                             pay="GMD200 000 / per year"
                             dcript="house is located at the heart of bijilo with good furniture and ventilation"
