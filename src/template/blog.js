@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
-
+// import Aside from "../pages/components/aside/aside"
 import Layout from "../../src/pages/layout/layout"
 
 import blogStyles from "./blog.module.scss"
@@ -12,8 +12,10 @@ export default ({ data }) => {
 
   return (
     <Layout>
+      {/* <Aside /> */}
       <div className={blogStyles.wrapper}>
         <main>
+          <h1>{post.frontmatter.title}</h1>
           <Img fluid={image} />
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </main>

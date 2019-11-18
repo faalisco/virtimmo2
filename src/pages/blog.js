@@ -20,8 +20,8 @@ export default ({ data }) => {
 
               <Img fluid={node.frontmatter.image.childImageSharp.fluid} />
 
-              <Link to={node.fields.slug} className={bStyles.link}>
-                <h3> {node.frontmatter.title} </h3></Link>
+              <h3>  <Link to={node.fields.slug} className={bStyles.link}>
+                {node.frontmatter.title} </Link></h3>
 
             </div>
           ))}
