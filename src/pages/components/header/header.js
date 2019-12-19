@@ -9,21 +9,6 @@ import logo from "../../../images/virtimmo.jpg"
 class Header extends React.Component {
 
     openNav = () => {
-        // let list = this.menu.classList;
-        // list.forEach(element => {
-        //     if (element !== "open") {
-        //         this.menu.classList.add("open");
-        //         this.nav.classList.remove("close");
-        //         this.nav.classList.add("open");
-        //     }
-        //     else {
-        //         this.menu.classList.remove("open");
-        //         this.nav.classList.remove("open");
-        //         this.nav.classList.add("close");
-        //     }
-
-        // });
-
         //better way to do the stuff
         this.menu.classList.toggle("open");
         this.nav.classList.toggle("open");

@@ -1,8 +1,8 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-// import Aside from "../pages/components/aside/aside"
+
 import Layout from "../../src/pages/layout/layout"
 
 import blogStyles from "./blog.module.scss"
@@ -12,13 +12,15 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      {/* <Aside /> */}
       <div className={blogStyles.wrapper}>
-        <main>
+
+        <main className={blogStyles.main}>
           <h1>{post.frontmatter.title}</h1>
           <Img fluid={image} />
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </main>
+        <button><Link to="/">Prev</Link></button>
+        <button><Link to="/">Next</Link></button>
       </div>
     </Layout>
   )
@@ -38,5 +40,15 @@ export const query = graphql`
           }
         }
       }
+
+      allMarkdownRemark {
+        edges{
+            node{
+                fields{
+                    slug
+                }
+            }
+        }
+    }
     }
 `

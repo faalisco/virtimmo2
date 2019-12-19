@@ -1,17 +1,23 @@
 .wrapper {
-  background: #1b212e;
-  padding: 2em;
+  .main {
+    background: #1b212e;
+    padding: 2em;
+    width: 80%;
+    margin: 1em auto;
 
-  h1 {
-    border-bottom: white 2px solid;
-    padding: 0.3em;
-    margin-bottom: 1em;
-    text-align: center;
+    h1 {
+      border-bottom: white 2px solid;
+      padding: 0.3em;
+      margin-bottom: 1em;
+      text-align: center;
+    }
   }
+  button {
+    border: none;
+    background: none;
 
-  img {
-    width: 100%;
+    a {
+      color: black;
+    }
   }
-  width: 70%;
-  margin: 1em auto;
 }
